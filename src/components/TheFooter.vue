@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="content-wrapper container">
-      <IconLogo />
+      <IconLogo width="114" height="36" />
 
       <span class="footer-policy">© alpha, 2023</span>
     </div>

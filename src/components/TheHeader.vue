@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="content-wrapper container">
-      <IconLogo />
+      <IconLogo width="152" height="48" />
     </div>
   </header>
 </template>
