@@ -1,0 +1,15 @@
+@import "./base.css";
+
+#app {
+  min-height: 105vh;
+  font-weight: normal;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.container {
+  padding: 0 1rem;
+  max-width: 1720px;
+}
