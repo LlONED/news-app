@@ -3,7 +3,6 @@ import { computed, reactive, ref } from "vue";
 
 import NewsList from "./NewsBlock/NewsList.vue";
 import { requestNews } from "@/api";
-import { errorMessages } from "vue/compiler-sfc";
 
 const loading = ref(true);
 const errorMessage = ref(null);
@@ -19,7 +18,7 @@ const showPaginationButton = computed(
 
 function getNews(page = "") {
   loading.value = true;
-  errorMessages.value = null;
+  errorMessage.value = null;
 
   requestNews(page)
     .then((newsResponse) => {
